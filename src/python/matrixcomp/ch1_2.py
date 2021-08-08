@@ -17,3 +17,4 @@ print(solve_for_x(node_matrix_a,node_matrix_b))
 def residual(a: tf.Tensor, b: tf.Tensor, x: tf.Tensor) -> tf.Tensor:
     residual: tf.Tensor = b - tf.matmul(a, x)
     return residual
+
